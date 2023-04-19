@@ -16,7 +16,7 @@ uart = UART(3,115200)   #定义串口3变量
 uart.init(115200, bits=8, parity=None, stop=1) # init with given parameters
 max_blob=0
 
-def find_max(blobs):    #定义寻找色块面积最大的函数
+def find_max(blobs):    #定义寻找色块面积最大的函数2023/4/19
     max_size=0
     global max_blob
     for blob in blobs:
